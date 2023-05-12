@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Should render without children 1`] = `
+<Tooltip.Wrapper
+  arrow={8}
+  background="#000"
+  border="#000"
+  color="#fff"
+  content="my content"
+  fadeDuration={0}
+  fadeEasing="linear"
+  fixed={false}
+  fontFamily="inherit"
+  fontSize="inherit"
+  offset={0}
+  padding={16}
+  placement="top"
+  radius={0}
+  zIndex={1}
+>
+  <EmotionCssPropInternal
+    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+    css={
+      Object {
+        "map": undefined,
+        "name": "bbq5bh",
+        "next": undefined,
+        "styles": "
+                
+        position: relative;
+        display: inline-block;
+      ;;
+                
+              ",
+        "toString": [Function],
+      }
+    }
+  >
+    <div
+      className="css-bbq5bh"
+    >
+      <Tooltip
+        fadeDuration={0}
+        fadeEasing="linear"
+        offset={8}
+        open={true}
+        placement="top"
+        zIndex={1}
+      >
+        <top
+          fadeDuration={0}
+          fadeEasing="linear"
+          offset={8}
+          zIndex={1}
+        >
+          <EmotionCssPropInternal
+            __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseToolTop"
+            __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+            css={
+              Object {
+                "map": undefined,
+                "name": "vo5ay8",
+                "next": undefined,
+                "styles": "
+                
+                position: absolute;
+                0;
+                z-index: 1;;
+              ;;
+                bottom: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 8px;
+              ",
+                "toString": [Function],
+              }
+            }
+          >
+            <div
+              className="css-f5brtt-BaseToolTop"
+            >
+              <Tooltip.Bubble
+                background="#000"
+                border="#000"
+                color="#fff"
+                fontFamily="inherit"
+                fontSize="inherit"
+                padding={16}
+                radius={0}
+              >
+                <EmotionCssPropInternal
+                  __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                  css={
+                    Object {
+                      "map": undefined,
+                      "name": "2zis3v",
+                      "next": undefined,
+                      "styles": "
+                          color: #fff;
+                          background: #000;
+                          border-radius: 0;
+                          border: 1px solid #000;
+                          padding: 16px;
+                          font-size: inherit;
+                          font-family: inherit;
+                        ",
+                      "toString": [Function],
+                    }
+                  }
+                >
+                  <div
+                    className="css-2zis3v"
+                  >
+                    <Tooltip.Arrow
+                      background="#000"
+                      border="#000"
+                      color="#fff"
+                      placement="top"
+                      width={8}
+                    >
+                      <top
+                        background="#000"
+                        border="#000"
+                        width={8}
+                      >
+                        <EmotionCssPropInternal
+                          __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseArrow"
+                          __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                          css={
+                            Object {
+                              "map": undefined,
+                              "name": "1ikf1el",
+                              "next": undefined,
+                              "styles": "
+                              
+                              position: absolute;
+                              width: 8px;
+                              height: 8px;
+                              background: #000;
+                            ;;
+                              transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
+                              top: 100%;
+                              left: 50%;
+                              border-right: 1px solid #000;
+                              border-bottom: 1px solid #000;
+                            ",
+                              "toString": [Function],
+                            }
+                          }
+                        >
+                          <div
+                            className="css-12sk1qt-BaseArrow"
+                          />
+                        </EmotionCssPropInternal>
+                      </top>
+                    </Tooltip.Arrow>
+                    my content
+                  </div>
+                </EmotionCssPropInternal>
+              </Tooltip.Bubble>
+            </div>
+          </EmotionCssPropInternal>
+        </top>
+      </Tooltip>
+    </div>
+  </EmotionCssPropInternal>
+</Tooltip.Wrapper>
+`;
+
+exports[`Tooltip should render 1`] = `
+<Tooltip.Wrapper
+  arrow={8}
+  background="#000"
+  border="#000"
+  color="#fff"
+  content="my content"
+  fadeDuration={0}
+  fadeEasing="linear"
+  fixed={false}
+  fontFamily="inherit"
+  fontSize="inherit"
+  offset={0}
+  padding={16}
+  placement="top"
+  radius={0}
+  zIndex={1}
+>
+  <EmotionCssPropInternal
+    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+    css={
+      Object {
+        "map": undefined,
+        "name": "bbq5bh",
+        "next": undefined,
+        "styles": "
+                
+        position: relative;
+        display: inline-block;
+      ;;
+                
+              ",
+        "toString": [Function],
+      }
+    }
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchEnd={[Function]}
+  >
+    <div
+      className="css-bbq5bh"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+    >
+      <button>
+        Hover Me
+      </button>
+      <Tooltip
+        fadeDuration={0}
+        fadeEasing="linear"
+        offset={8}
+        open={false}
+        placement="top"
+        zIndex={1}
+      />
+    </div>
+  </EmotionCssPropInternal>
+</Tooltip.Wrapper>
+`;

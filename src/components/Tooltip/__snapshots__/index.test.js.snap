@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip renders 1`] = `
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: 8px;
+}
+
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: 8px;
+}
+
+<Tooltip
+  offset={8}
+  open={true}
+  placement="bottom"
+  zIndex={8}
+>
+  <bottom
+    offset={8}
+    zIndex={8}
+  >
+    <EmotionCssPropInternal
+      __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseToolTop"
+      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+      css={
+        Object {
+          "map": undefined,
+          "name": "d5esmf",
+          "next": undefined,
+          "styles": "
+          
+          position: absolute;
+          ;
+          z-index: 8;;
+        ;;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-top: 8px;
+        ",
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className="emotion-0"
+      >
+        😎
+      </div>
+    </EmotionCssPropInternal>
+  </bottom>
+</Tooltip>
+`;
+
+exports[`Tooltip renders 2`] = `
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+<Tooltip
+  offset={8}
+  open={true}
+  placement="top"
+  zIndex={8}
+>
+  <top
+    offset={8}
+    zIndex={8}
+  >
+    <EmotionCssPropInternal
+      __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseToolTop"
+      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+      css={
+        Object {
+          "map": undefined,
+          "name": "k01d0a",
+          "next": undefined,
+          "styles": "
+          
+          position: absolute;
+          ;
+          z-index: 8;;
+        ;;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-bottom: 8px;
+        ",
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className="emotion-0"
+      >
+        😎
+      </div>
+    </EmotionCssPropInternal>
+  </top>
+</Tooltip>
+`;
+
+exports[`Tooltip renders 3`] = `
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 8px;
+}
+
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 8px;
+}
+
+<Tooltip
+  offset={8}
+  open={true}
+  placement="right"
+  zIndex={8}
+>
+  <right
+    offset={8}
+    zIndex={8}
+  >
+    <EmotionCssPropInternal
+      __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseToolTop"
+      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+      css={
+        Object {
+          "map": undefined,
+          "name": "1hw5ljr",
+          "next": undefined,
+          "styles": "
+          
+          position: absolute;
+          ;
+          z-index: 8;;
+        ;;
+          left: 100%;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-left: 8px;
+        ",
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className="emotion-0"
+      >
+        😎
+      </div>
+    </EmotionCssPropInternal>
+  </right>
+</Tooltip>
+`;
+
+exports[`Tooltip renders 4`] = `
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  right: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-right: 8px;
+}
+
+.emotion-0 {
+  position: absolute;
+  z-index: 8;
+  right: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-right: 8px;
+}
+
+<Tooltip
+  offset={8}
+  open={true}
+  placement="left"
+  zIndex={8}
+>
+  <left
+    offset={8}
+    zIndex={8}
+  >
+    <EmotionCssPropInternal
+      __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseToolTop"
+      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+      css={
+        Object {
+          "map": undefined,
+          "name": "1q1onnq",
+          "next": undefined,
+          "styles": "
+          
+          position: absolute;
+          ;
+          z-index: 8;;
+        ;;
+          right: 100%;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-right: 8px;
+        ",
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className="emotion-0"
+      >
+        😎
+      </div>
+    </EmotionCssPropInternal>
+  </left>
+</Tooltip>
+`;
+
+exports[`Tooltip should create a Tooltip with an animation 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-0 {
+  position: absolute;
+  -webkit-animation: 100ms ease-out 0s 1 animation-0;
+  animation: 100ms ease-out 0s 1 animation-0;
+  z-index: 8;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+.emotion-0 {
+  position: absolute;
+  -webkit-animation: 100ms ease-out 0s 1 animation-0;
+  animation: 100ms ease-out 0s 1 animation-0;
+  z-index: 8;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+<Tooltip
+  fadeDuration={100}
+  fadeEasing="ease-out"
+  offset={8}
+  open={true}
+  zIndex={8}
+>
+  <top
+    fadeDuration={100}
+    fadeEasing="ease-out"
+    offset={8}
+    zIndex={8}
+  >
+    <EmotionCssPropInternal
+      __EMOTION_LABEL_PLEASE_DO_NOT_USE__="BaseToolTop"
+      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+      css={
+        Object {
+          "map": undefined,
+          "name": "9eiz8i",
+          "next": Object {
+            "name": "animation-1f15dgw",
+            "next": undefined,
+            "styles": "@keyframes animation-1f15dgw{
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+        }",
+          },
+          "styles": "
+          
+          position: absolute;
+          
+          animation: 100ms ease-out 0s 1 animation-1f15dgw;
+        ;;
+          z-index: 8;;
+        ;;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-bottom: 8px;
+        ",
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className="emotion-0"
+      >
+        😎
+      </div>
+    </EmotionCssPropInternal>
+  </top>
+</Tooltip>
+`;
